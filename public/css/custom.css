@@ -1,0 +1,176 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 0 0;
+}
+
+h1 {
+    line-height: 1;
+    /* text-transform: capitalize; */
+}
+
+.negative img {
+    margin-top: -120px !important;
+}
+
+.text-v {
+    color: #00CF8C !important;
+}
+
+.text-titulos {
+    color: #58249E !important;
+}
+
+.text-subtitulos {
+    font-family: 'Arial-Rounded-Extrabold', sans-serif;
+}
+
+/* span {
+    color: #fff !important;
+    font-size: 36px !important;
+    line-height: 1;
+    font-family: 'Arial-Rounded-Extrabold', sans-serif;
+} */
+
+
+.text-arial {
+    color: #00CF8C !important;
+    font-size: 48px;
+}
+
+.text-m {
+    color: #7A38C6 !important;
+}
+
+.heading-block h1 {
+    font-size: 48px;
+}
+
+.fbox-icon i,
+.fbox-icon img {
+    border-radius: 50%;
+    background-color: #4C1792;
+}
+
+
+.heading-v::after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 69px;
+    border-top: 5px solid #00CF8C;
+    border-top-color: rgb(20, 225, 100);
+}
+
+.heading-b::after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 69px;
+    border-top: 5px solid #fff;
+    border-top-color: rgb(245, 248, 246);
+}
+
+.heading-m::after {
+    content: '';
+    display: block;
+    margin-top: 30px;
+    width: 69px;
+    border-top: 5px solid #4C1792;
+    border-top-color: rgb(112, 1, 196);
+}
+
+
+.line-v::before {
+    content: '';
+    display: block;
+    width: 70px;
+    border-top: 5px solid #00CF8C;
+    border-top-color: rgb(0, 207, 140);
+    border-top-color: rgb(20, 225, 100);
+    /* margin-left: 3em; */
+    margin-bottom: 1em;
+
+
+
+}
+
+
+/* .line-v::before::rig {
+    content: '';
+    display: block;
+    width: 20px;
+    border-top: 5px solid #ffffff;
+    border-top-color: rgb(250, 250, 250);
+    border-top-color: rgb(254, 255, 254);
+    margin-left: 4em;
+    margin-bottom: 1em;
+} */
+
+
+.portfolio-desc {
+    margin-left: 3em;
+}
+
+.beneficio img {
+    width: 85% !important;
+}
+
+/* .portfolio-item .portfolio-image, .portfolio-item .portfolio-image > a, .portfolio-item .portfolio-image img {
+    display: block;
+    width: 100%;
+    height: auto;
+  } */
+.fbox-icon {
+    width: 7.5rem;
+    height: 6rem;
+    padding: 0 0.75rem;
+}
+
+@media (min-width: 992px) .me-lg-5 {
+    margin-right: 20rem !important;
+}
+
+#inversion {
+    max-width: 80% !important;
+}
+
+.fbox-v img {
+    border-radius: 50%;
+    background-color: #26D384;
+}
+
+/* .card-contact{
+    background-color: #DCF4E9;
+    border-radius: 2em;
+} */
+
+.dark .card {
+    background-color: #DCF4E9;
+    border-radius: 1.5em;
+}
+
+.btn-v {
+    background-color: #26D384;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.etiqueta {
+    background-color: #4C1792;
+    color: #fff;
+    font-size: 15px;
+    margin: 1px;
+
+}
